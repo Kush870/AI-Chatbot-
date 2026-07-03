@@ -1,0 +1,15 @@
+GitHub Repository Link:
+https://github.com/Kush870/AI-Chatbot-.git
+
+---
+
+User Prompts:
+
+Prompt 1:
+Create a simple chatbot using Gemini API key which answers the query of the user, Create in Local System and then deploy in github, send me the link of your github in the file which I will share. I have created a v.env file that contains the API Key , you are strictly forbidden to share this key elsewhere and i added v.env in gitignore so that it wont upload on github. not create this chatbot using python,flask and make necessary changes to the folder to protect the API key.
+
+Prompt 2:
+https://github.com/Kush870/AI-Chatbot-.git
+
+Prompt 3:
+create a file in this folder that contains all the prompts that i have given to you
