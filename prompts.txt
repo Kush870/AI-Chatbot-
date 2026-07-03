@@ -14,3 +14,7 @@ https://github.com/Kush870/AI-Chatbot-.git
 Prompt 3:
 create a file in this folder that contains all the prompts that i have given to you
 
+Prompt 4:
+it have some modules that it cant find like from dotenv import load_dotenv and from google.genai import types
+
+
