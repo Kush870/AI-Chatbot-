@@ -22,3 +22,7 @@ update the files and make the UI more more professional
 
 Prompt 6:
 the UI should not have a purple color and make it more light themes
+
+Prompt 7:
+remove wherever gemini is written from the UI the user should not know anything written like gemini workspace make it more authentic and genuine
+

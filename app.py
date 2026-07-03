@@ -27,7 +27,7 @@ def index():
 @app.route('/chat', methods=['POST'])
 def chat():
     if not client:
-        return jsonify({'error': 'Gemini API Client is not initialized. Please verify your Gemini_API_Key in v.env'}), 500
+        return jsonify({'error': 'API Client is not initialized. Please verify your config in v.env'}), 500
 
     data = request.get_json()
     if not data or 'message' not in data:
@@ -62,8 +62,8 @@ def chat():
         })
         
     except Exception as e:
-        print(f"Error calling Gemini API: {e}")
-        return jsonify({'error': f"Gemini API Error: {str(e)}"}), 500
+        print(f"Error calling API: {e}")
+        return jsonify({'error': f"API Error: {str(e)}"}), 500
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5000)
